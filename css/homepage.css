@@ -96,7 +96,7 @@ section .buttons a:first-child:hover {
 /* Media queries */
 @media (max-width: 420px) {
     section .buttons {
-        margin-bottom: 8.5vh;
+        margin-bottom: 8.7vh;
     }
 }
 
