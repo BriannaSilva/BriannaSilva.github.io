@@ -1,0 +1,52 @@
+header {
+    background-color: white;
+}
+section {
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+section h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #9624d8;
+    margin: 5px 0; 
+    text-align: center;
+}
+section p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    margin: 5px 0;
+    text-align: center;
+}
+.illustrations_img {
+    width: 90vw;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.illustrations_img img {
+    max-width: 50vw;
+    max-height: 50vh;
+    background-color: white;
+    margin: 10px;
+    transition: 1s ease;
+}
+
+.illustrations_img img:hover {
+    max-width: 65vw;
+    max-height: 65vh;
+    transition: ease 1s;
+}
+.socials a {
+    color: #9624d8;
+}
+.socials a:hover {
+    cursor: pointer;
+    color: #e5b3fe;
+}

@@ -1,0 +1,117 @@
+header {
+    background-color: white;
+}
+
+section {
+    padding: 7vh 5px 2vh 5vw; 
+}
+/* First section */
+.cards-1 {
+    background-color: #010A14;
+}
+.cards-1 div{
+    width: 90vw;
+}
+.cards-1 h1 {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #e5b3fe;
+}
+.cards-1 p, .cards-1 li {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin: 7px 0; 
+    color: #D6AFAF;
+}
+.cards-1 li {
+    list-style: none;
+}
+.div-1 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.cards-1 img {
+    max-width: 20vw;
+}
+.div-2 {
+    padding: 2vh 0;
+    display: inline-grid;
+}
+.div-2 img {
+    padding: 5px;
+    /* background-color: rgba(255, 255, 255, .9);
+    box-shadow: -8px 5px 9px rgba(0, 0, 0, 0.25); */
+    border-radius: 10px;
+}
+.div-3 img{
+    padding: 5px;
+   /*  background-color: rgba(255, 255, 255, .9); */
+    /* box-shadow: -8px 5px 9px rgba(0, 0, 0, 0.25); */
+    border-radius: 20px;
+}
+.div-3 p {
+    font-style: italic; 
+}
+.div-4 img{
+    max-width: 45vw;
+    padding: 10px;
+    /* background-color: rgba(255, 255, 255, .9);
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.25); */
+    border-radius: 20px;
+}
+
+/* Second section */
+.cards-2 {
+    background-color: #f8edeb;
+}
+.cards-2 div{
+    width: 90vw;
+}
+.images {
+    text-align: center;
+}
+.cards-2 h1 {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 20px 0;
+    color: #4F0011;
+}
+.cards-2 p {
+    font-size: 2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin: 7px 0; 
+    color: #672B67;
+}
+.div-5 h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.cards-2 img {
+    max-width: 20vw;
+    border-radius: 12.5px;
+    background-color: white;
+    margin: 5px;
+    box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.25)
+}
+.div-6 {
+    padding: 2vh 0;
+    display: inline-grid;
+}
+.div-8 img {
+    max-width: 45vw;
+}
+
+
+/* Media queries */
+@media (max-width: 768px){
+    .cards-1 img, .cards-2 img {
+        min-width: 60vw;
+    }
+}
